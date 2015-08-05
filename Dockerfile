@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20150805
-MAINTAINER sameer@damagehead.com
+FROM resin/rpi-raspbian
+MAINTAINER Marcel Grossmann <whatever4711@gmail.com>
 
 ENV PG_VERSION=9.4 \
     PG_USER=postgres \
